@@ -42,7 +42,8 @@ from datetime import datetime
 import xlsxwrite
 ```
 🔧 2. Funções Auxiliares 
-🔹 Conversão de Especialidade
+
+ 🔹 Conversão de Especialidade
 
 ```python
 def especialidade(num):
