@@ -100,7 +100,9 @@ def converterData(data):
 ```python
 pf = pd.read_excel("faturamento.xls", engine="xlrd")
 pm = pd.read_excel("censo_diario.xls", sheet_name="Janeiro 2024")
+```
 🔄 4. Padronização de Colunas
+```python
 pf = pf.rename(columns={
     "AIH_DT_SAI": "Saida",
     "AIH_DT_INT": "Entrada",
